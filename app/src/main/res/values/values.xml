@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cellBorder">1px</dimen>
+    <dimen name="cellBorderThick">4dp</dimen>
+    <dimen name="setNumberTextSize">16dp</dimen>
+    <dimen name="cellNoteTextSize">3dp</dimen>
+    <dimen name="cellTextSize">10dp</dimen>
+
+    <integer name="animationTime">500</integer>
+</resources>

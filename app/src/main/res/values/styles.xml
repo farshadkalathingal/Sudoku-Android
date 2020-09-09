@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="SudokuGrid">
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:paddingLeft">1dp</item>
+    </style>
+
+    <style name="SudokuSelector" parent="android:Widget.Button">
+        <item name="android:layout_weight">0.1</item>
+        <item name="android:onClick">updateCellValue</item>
+        <item name="android:background">@drawable/selector</item>
+        <item name="android:textSize">@dimen/setNumberTextSize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="SudokuCell" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/cellDefaultFont</item>
+        <item name="android:textSize">@dimen/cellTextSize</item>
+        <item name="android:background">@drawable/cell</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
